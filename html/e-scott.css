@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  color: #cccccc;
 }
 
 .navbar-default {
@@ -22,4 +23,5 @@ body {
 
 .footer {
   padding-top: 40px;
+  text-align: center;
 }
