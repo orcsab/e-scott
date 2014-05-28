@@ -1,13 +1,25 @@
+body {
+  background-color: black;
+}
+
+.navbar-default {
+  background-color: red;
+}
+
 .navbar img {
   width: 50px;
 }
 
+.highlights {
+  padding-top: 30px;
+}
+
 .highlights img {
   width: 300px;
-  border-radius: 300px;
+  border-radius: 150px;
+  border: solid #aaaaaa 2px;
 }
 
 .footer {
-  padding-top: 30px;
-  text-align: right;
+  padding-top: 40px;
 }
