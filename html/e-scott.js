@@ -1,12 +1,10 @@
 $(function () {
-  $('#header').load("html/header.html");
   $('#footer').load("html/footer.html");
-
-  $('#icon-home').hover (function () {
-    console.log('mouseenter');
-    $(this).attr('src', 'html/images/icon-world.png');
-  }, function () {
-    $(this).attr('src', 'html/images/icon-world-inverse.png');
+  $('#header').load("html/header.html", function () {
+    $('#icon-home').hover (function () {
+      $(this).attr('src', 'html/images/icon-world.png');
+    }, function () {
+      $(this).attr('src', 'html/images/icon-world-inverse.png');
+    });
   });
-
 });
